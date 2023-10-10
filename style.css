@@ -13,3 +13,28 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
     color: #292b2c;
 }
+
+section {
+    background: #cdc1f8;
+}
+
+.czerwony {
+    color: red;
+}
+
+#szkolenie {
+    background: green;
+}
+
+
+a {
+    color: yellow;
+}
+
+section a {
+    color: violet;
+}
+
+.my-article p {
+    color: orange;
+}
