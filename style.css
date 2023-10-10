@@ -43,3 +43,39 @@ section a {
 .my-article p {
     color: orange;
 }
+
+.navigation {
+    background: #f8c1c1;
+    padding: 16px;
+
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 16px;
+}
+
+.navigation li a {
+    color: #292b2c;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: #f8c1c1;
+    text-decoration: none;
+}
+
+.navigation li.active a {
+    color: #f8c1c1;
+    text-decoration: none;
+}
+
+.navigation li.active a:hover {
+    color: #292b2c;
+    text-decoration: none;
+}
+
+.navigation__link {
+    color: #292b2c;
+    text-decoration: none;
+}

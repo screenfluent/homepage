@@ -11,18 +11,18 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navigation">
             <ul>
-                <li><a href="index.html">Strona domowa</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-                <li><a href="#szkolenie">Szkolenie</a></li>
+                <li><a class="navigation__link" href="index.html">Strona domowa</a></li>
+                <li><a class="navigation__link" href="cv.html">CV</a></li>
+                <li><a class="navigation__link" href="kontakt.html">Kontakt</a></li>
+                <li><a class="navigation__link" href="#szkolenie">Szkolenie</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <header id="top">
-            <h1>Szymon Rączka - strona domowa</h1>
+        <header class="page-header" id="top">
+            <h1 class="page-header__heading page-header__heading--js">Szymon Rączka - strona domowa</h1>
         </header>
         <section>
             <h2>Kim jestem</h2>
@@ -30,6 +30,19 @@
                 Hej, mam na imię Szymon i jestem studentem informatyki na Uniwersytecie Wrocławskim. Interesuję się
                 programowaniem, a w szczególności tworzeniem stron internetowych. W wolnym czasie lubię grać w gry
                 komputerowe, czytać książki oraz oglądać filmy i seriale.
+
+                Od kilku lat zajmuję się programowaniem i tworzeniem stron internetowych. Uważam, że jest to bardzo
+                ciekawe i rozwijające zajęcie, które pozwala mi na ciągłe zdobywanie nowych umiejętności i poznawanie
+                nowych technologii. W swojej pracy staram się zawsze kierować się zasadami dobrego designu i
+                użyteczności, aby moje projekty były jak najbardziej intuicyjne i łatwe w obsłudze.
+
+                W przyszłości chciałbym rozwijać swoje umiejętności w zakresie programowania i projektowania stron
+                internetowych, a także poznać nowe języki programowania i technologie. Mam nadzieję, że moja praca
+                przyczyni się do rozwoju branży IT i przyniesie korzyści dla użytkowników moich projektów.
+
+                Jeśli masz jakieś pytania lub chcesz porozmawiać o współpracy, skontaktuj się ze mną przez formularz
+                kontaktowy na mojej stronie. Z przyjemnością odpowiem na Twoje pytania i pomożemy Ci w realizacji
+                Twojego projektu.
             </p>
         </section>
         <section>
@@ -73,5 +86,5 @@
     <footer>
         <p>Strona domowa Szymona, wszystko to tutaj to ćwiczenia.</p>
     </footer>
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
 </body>
