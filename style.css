@@ -12,12 +12,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     line-height: 1.5;
     color: #292b2c;
+    padding: 16px;
 }
 
 section {
     background: #cdc1f8;
+    padding: 16px;
 }
-
+footer {
+    background: #f8c1c1;
+    padding: 16px;
+}
 .czerwony {
     color: red;
 }
